@@ -34,7 +34,7 @@ const numUniqueEmails = function(emails) {
         localName = localName.split('.').join('');
         // Remove everything after the +
         localName = localName.split('+')[0];
-        // Add the revised local name to a set
+        // Add the full email to a set, which will automatically discard duplicates
         uniqueEmails.add(localName + '@' + domainName);
     }
     // Return the Set's size

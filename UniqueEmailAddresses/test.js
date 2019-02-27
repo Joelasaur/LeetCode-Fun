@@ -9,7 +9,6 @@ describe('Unique Email Addresses', function() {
     });
     it('should validate ., +, and @ correctly', function() {
       assert.equal(uniqueEmails(["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]), 2);
-      assert.equal(uniqueEmails(["testemail@leetcode.com","testemail1@leetcode.com","testemail+david@lee.tcode.com"]), 3);
     });
     it('should allow unique domain names but duplicate local names', function() {
         assert.equal(uniqueEmails(["testemail@leetcode.com","testemail1@leetcode.com","testemail+david@lee.tcode.com"]), 3);
