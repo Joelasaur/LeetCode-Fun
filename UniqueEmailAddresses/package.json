@@ -1,0 +1,13 @@
+{
+    "name": "UniqueEmailAddresses",
+    "version": "1.0.0",
+    "main": "uniqueEmails.js",
+    "author": "Joel Whalen",
+    "license": "MIT",
+    "scripts": {
+      "test": "mocha --watch"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  

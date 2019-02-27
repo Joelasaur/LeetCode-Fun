@@ -1,7 +1,7 @@
 {
   "name": "jewelsAndStones",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "jewelsAndStones.js",
   "author": "Joel Whalen",
   "license": "MIT",
   "scripts": {
