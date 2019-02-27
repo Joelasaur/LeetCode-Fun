@@ -1,0 +1,12 @@
+{
+  "name": "jewelsAndStones",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Joel Whalen",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
